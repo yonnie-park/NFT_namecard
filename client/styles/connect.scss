@@ -1,0 +1,22 @@
+.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    &__metamask{
+        padding: 5px 20px 5px 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: none;
+        font-size: 20px;
+    }
+    &__logo{
+        width: 50px;
+    }
+}
