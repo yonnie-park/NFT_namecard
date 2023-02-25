@@ -1,0 +1,134 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    &__buttons{
+        margin-top:100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    &__paddingA{
+        border:none;
+        background-color: var(--padding-a);
+        color:white;
+        font-size: 18px;
+        height: 35px;
+        width: 200px;
+    }
+    &__paddingB{
+        border:none;
+        background-color: var(--padding-b);
+        color:white;
+        font-size: 18px;
+        height: 35px;
+        width: 200px;
+    }
+    &__hoodieA{
+        border:none;
+        background-color: var(--hoodie-a);
+        color:white;
+        font-size: 18px;
+        height: 35px;
+        width: 200px;
+    }
+    &__hoodieB{
+        border:none;
+        background-color: var(--hoodie-b);
+        color:white;
+        font-size: 18px;
+        height: 35px;
+        width: 200px;
+    }
+    &__flowerA{
+        border:none;
+        background-color: var(--flower-a);
+        color:white;
+        font-size: 18px;
+        height: 35px;
+        width: 200px;
+    }
+    &__flowerB{
+        border:none;
+        background-color: var(--flower-b);
+        color:white;
+        font-size: 18px;
+        height: 35px;
+        width: 200px;
+    }
+    &__explore{
+        margin-top:50px;
+        border: none;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+.NFTmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    &__container{
+        margin-top: 50px;
+        width: 100vw;
+        height: fit-content;
+        padding: 20px;
+        gap: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__nft{
+        width: 100px;
+        height:100px;
+    }
+}
+.NFT{
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    @-webkit-keyframes slide-in-fwd-center {
+        0% {
+          -webkit-transform: translateZ(-1400px);
+                  transform: translateZ(-1400px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateZ(0);
+                  transform: translateZ(0);
+          opacity: 1;
+        }
+      }
+      @keyframes slide-in-fwd-center {
+        0% {
+          -webkit-transform: translateZ(-1400px);
+                  transform: translateZ(-1400px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateZ(0);
+                  transform: translateZ(0);
+          opacity: 1;
+        }
+      }
+      
+      
+}
