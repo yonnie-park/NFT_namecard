@@ -6,6 +6,33 @@
     width: 100vw;
     height: 100vh;
 
+    &__button{
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+        border:none;
+        cursor: pointer;
+    }
+    &__yonnie{
+        width: 250px;
+        margin-bottom: 50px;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 30px;
+    }
+    &__infodiv{
+        display: flex;
+        gap: 20px;
+        margin-top: 10px;
+    }
+    &__icon{
+        width: 20px;
+        height: auto;
+
+    }
     &__buttons{
         margin-top:100px;
         display: flex;
@@ -64,7 +91,7 @@
     }
     &__explore{
         margin-top:50px;
-        border: none;
+        color: gray;
     }
 
     &__content{
